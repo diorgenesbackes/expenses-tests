@@ -1,0 +1,11 @@
+**/bin/
+**/obj/
+node_modules/
+.local/
+reports/*
+!reports/.gitkeep
+playwright-report/
+test-results/
+__pycache__/
+.env
+*.trx

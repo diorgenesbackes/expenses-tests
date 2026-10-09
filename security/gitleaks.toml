@@ -1,0 +1,9 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Documented example UUID for Idempotency-Key; not an API credential. Exact value and file only."
+condition = "AND"
+paths = ['''expenses-docs/guidelines/API-SINCRONA\.md$''']
+regexTarget = "match"
+regexes = ['''Idempotency-Key: b5d1dd15-82e9-4cb0-8d42-dad95cb9ab0b''']

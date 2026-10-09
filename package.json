@@ -1,0 +1,15 @@
+{
+  "name": "expenses-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "api": "playwright test --project=api",
+    "e2e": "playwright test --project=chromium",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "@types/node": "24.13.3",
+    "typescript": "6.0.2"
+  }
+}

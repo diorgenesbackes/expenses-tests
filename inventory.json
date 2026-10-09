@@ -1,0 +1,83 @@
+{
+  "originalCases": 98,
+  "classes": [
+    {
+      "class": "UserServiceTests",
+      "destination": "unit",
+      "cases": 7,
+      "originalSha256": "3e99b03c35b3ded4bd9369863adc5ba8318cc5e588a162a7bd5e3a76d35f8858"
+    },
+    {
+      "class": "RegistrationServiceTests",
+      "destination": "unit",
+      "cases": 16,
+      "originalSha256": "5312c64864576a761a45a0c036e8995c8719f4cb962ceaf2f65b19f59c96f04a"
+    },
+    {
+      "class": "CognitoIdentityProviderTests",
+      "destination": "unit",
+      "cases": 15,
+      "originalSha256": "bc8adb684e7b9ed266ab0b17c7216eb65e09edf2e3d9cf6593d1d9a5e21fda18"
+    },
+    {
+      "class": "CognitoAccessTokenValidatorTests",
+      "destination": "unit",
+      "cases": 8,
+      "originalSha256": "e1fdc09c88b2e31e6bee31928e52f8e384e93b03f077bcbe121ad9bde7d32db6"
+    },
+    {
+      "class": "UsersEndpointTests",
+      "destination": "integration",
+      "cases": 18,
+      "originalSha256": "1bf07a294d4376ded9db75abb7ed250f8454736b9cf8b60d7279c8f9c6dd820d"
+    },
+    {
+      "class": "RegistrationEndpointTests",
+      "destination": "integration",
+      "cases": 11,
+      "originalSha256": "937ca098501070f327d07a576c82138e34f6c4f65d4f4d15d76feba6096d54b3"
+    },
+    {
+      "class": "DatabaseHealthEndpointTests",
+      "destination": "integration",
+      "cases": 6,
+      "originalSha256": "ff7185c1ec37d4a1f6ec3ecced2621da6c789ce1458e5915e943930cd3b2df15"
+    },
+    {
+      "class": "UsersPostgresTests",
+      "destination": "integration",
+      "cases": 1,
+      "originalSha256": "9b57f1bbef2faac1603c7d8332f9799b164aa062a5fea1e1f45a1b4addad8adf"
+    },
+    {
+      "class": "RegistrationPostgresTests",
+      "destination": "integration",
+      "cases": 5,
+      "originalSha256": "9ddae5106077fb701ab251ac0a90f86f9808916c8cb5e10c8290087b8cb53b28"
+    },
+    {
+      "class": "SessionPostgresTests",
+      "destination": "integration",
+      "cases": 8,
+      "originalSha256": "4951256830505b4642ec1245212db77e0ae2fff1e5cedc9031e700e44b995f24"
+    },
+    {
+      "class": "CognitoLiveTests",
+      "destination": "external",
+      "cases": 1,
+      "originalSha256": "d58ad1959df2e0974a50dfc873bb08510f0c1021a6171acf8bd9cc95cdaf5417"
+    },
+    {
+      "class": "RegistrationCognitoLiveTests",
+      "destination": "external",
+      "cases": 1,
+      "originalSha256": "2afb9c178144444c1e8ec1a785a92fa31c1bf9571f745d5cbefafdb04e20c585"
+    },
+    {
+      "class": "SessionCognitoLiveTests",
+      "destination": "external",
+      "cases": 1,
+      "originalSha256": "266cf4c370c4c1be01bfcb26360b924db8f57b5116567631db16ff74b47cae6b"
+    }
+  ]
+}
